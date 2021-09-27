@@ -1,0 +1,26 @@
+Use the API https://api.themoviedb.org/3/movie/popular?api_key=40315881b5af1985a7ceba1f41b45973&language=en-US 
+to get a list of popular movies and show them in an auto scrolling carousel (from left to right)
+
+displaying the image, title, ratings, if it's adult, then blur the image (and unblur it on hover),
+and release date.
+Be sure to take care of loading states and error states during API calls.
+
+We will also evaluate on component design.
+
+Try using typescript if possible.
+For mobile view, it should show two movies side by side,
+ and then two more below it and so on. The movement should be from bottom to top instead 
+ of right to left.
+
+Querying the API:
+- To query the API, you will need to setup a backend process that queries the API and proxies the 
+result to the frontend.
+- In case you do not know how to make a backend process, you can mock the reply on the frontend.
+
+
+Bonus:
+- Add a try again button to the error state
+- Make styling better (make it more pretty)
+- Lazy loading of images as the person is about to scroll the image into the view.
+- Make a better loading state (for example, instead of just showing the loading text, show placeholder boxes with some loading animation)
+
